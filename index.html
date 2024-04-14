@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arshdeep's Drawing App</title>
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1>Let's Draw!</h1>
+
+  <div id="drawingArea">
+    <canvas id="myCanvas" width="960" height="500" style="border: 1px solid #ccc">
+      Your browser does not support the HTML5 canvas tag.
+    </canvas>
+  </div>
+
+  <div id="controls">
+    <button id="clearButton" class="btn btn-action">
+      <i class="far fa-trash-alt"></i>
+    </button>
+
+    <button id="eraseButton" class="btn btn-action">
+      <i class="fas fa-eraser"></i>
+    </button>
+
+    <button id="blackButton" class="btn btn-action color-btn">
+      <i class="fas fa-paint-brush"></i>
+    </button>
+    <button id="pinkButton" class="btn btn-action color-btn">
+      <i class="fas fa-paint-brush"></i>
+    </button>
+    <button id="blueButton" class="btn btn-action color-btn">
+      <i class="fas fa-paint-brush"></i>
+    </button>
+    <button id="yellowButton" class="btn btn-action color-btn">
+      <i class="fas fa-paint-brush"></i>
+    </button>
+
+    <br />
+
+    Brush size:
+    <input id="brushSizeSlider" type="range" min="2" max="15" step="1" />
+    <span id="brushSizeDisplay"></span>
+  </div>
+
+  <div id="log"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

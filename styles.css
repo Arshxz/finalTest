@@ -1,0 +1,37 @@
+#pinkButton {
+  background-color: #f50057;
+  border-color: #f50057;
+}
+#blueButton {
+  background-color: #2979ff;
+  border-color: #2979ff;
+}
+#yellowButton {
+  background-color: #ffd600;
+  border-color: #ffd600;
+}
+#blackButton {
+  background-color: #000000;
+  border-color: #000000;
+}
+.color-btn {
+  color: white;
+}
+
+#controls {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#drawingArea {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 60px;
+}
